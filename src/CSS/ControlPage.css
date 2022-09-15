@@ -1,0 +1,73 @@
+
+.container {
+  width: 450px;
+  display: flex;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.buttons{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.buttons button{
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+
+input {
+  font-size: 15px;
+  width: 150px;
+  margin-left: 10px;
+}
+
+.flights {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.flightCss {
+  background-color: whitesmoke;
+  box-shadow: 1px 1px 3px black;
+  border-radius: 5px;
+  width: 150px;
+  height: 150px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+span {
+  color: red;
+}
+
+.flightCss p {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media (max-width: 500px){
+
+  .buttons{
+    display: inline;
+    font-size: 15px;
+    width: 100px;
+  }
+
+  .flights {
+    margin-top: 20px;
+  }
+
+  .button {
+    font-size: 12px;
+  }
+
+  .container {
+    display: inherit;
+  }
+}

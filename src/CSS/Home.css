@@ -1,0 +1,22 @@
+
+.home-input-field {
+  margin: 0 auto;
+  margin-top: 10px;
+  width: 200px;
+}
+
+
+.home-input-field input {
+  font-size:18px;
+  padding: 5px;
+  width: 190px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+
+.home-input-field button {
+  font-size:18px;
+  padding: 3px;
+  width: 200px;
+}

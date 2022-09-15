@@ -1,0 +1,53 @@
+
+.sortContainer {
+  width: 500px;
+  display: flex;
+  margin: 0 auto;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.companyInp, .deleteInp {
+  box-shadow: 2px 2px 5px black;
+  text-align: center;
+  width: 140px;
+  margin-bottom:inherit;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+
+.selectSort {
+  border-radius: 5px;
+  box-shadow: 4px 4px 5px black;
+  background-color: #F0F0F0;
+  font-size: 17px;
+  text-align: center;
+}
+
+.sortBC {
+  width: 150px;
+  font-size: 15px;
+}
+
+
+::placeholder {
+  color: gray;
+}
+
+.sortButtons p {
+  margin: 5px;
+  margin-top: 15px;
+}
+
+.sortButtons button {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.sortCapDiv {
+  margin-left: 10px;
+}
